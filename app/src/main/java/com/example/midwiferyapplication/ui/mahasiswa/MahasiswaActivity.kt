@@ -15,6 +15,7 @@ class MahasiswaActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         setupIntentViews()
+        setupBackButton()  // Set up the back button
     }
 
     private fun setupIntentViews() {
@@ -23,6 +24,13 @@ class MahasiswaActivity : AppCompatActivity() {
         }
         binding.card2.setOnClickListener {
             startActivity(Intent(this, KegiatanActivity::class.java))
+        }
+    }
+
+    private fun setupBackButton() {
+        // Set an OnClickListener on the back button
+        binding.btnBack.setOnClickListener {
+            onBackPressed()  // This will navigate back to the previous activity
         }
     }
 }

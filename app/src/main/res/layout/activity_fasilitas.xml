@@ -313,7 +313,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@drawable/perpus1"
+                    android:src="@drawable/sarana"
                     android:scaleType="centerCrop"
                     android:clipToOutline="true"/>
             </androidx.cardview.widget.CardView>
@@ -329,7 +329,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@drawable/perpus2"
+                    android:src="@drawable/sarana2"
                     android:scaleType="centerCrop"
                     android:clipToOutline="true"/>
             </androidx.cardview.widget.CardView>
@@ -345,7 +345,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@drawable/perpus3"
+                    android:src="@drawable/sarana3"
                     android:scaleType="centerCrop"
                     android:clipToOutline="true"/>
             </androidx.cardview.widget.CardView>
@@ -361,7 +361,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@drawable/perpus4"
+                    android:src="@drawable/sarana4"
                     android:scaleType="centerCrop"
                     android:clipToOutline="true"/>
             </androidx.cardview.widget.CardView>
