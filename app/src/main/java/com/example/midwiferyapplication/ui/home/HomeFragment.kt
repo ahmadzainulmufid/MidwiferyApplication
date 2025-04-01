@@ -6,7 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.midwiferyapplication.ui.Akreditas.AkreditasActivity
+import com.example.midwiferyapplication.ui.akreditas.AkreditasActivity
 import com.example.midwiferyapplication.ui.fasilitas.FasilitasActivity
 import com.example.midwiferyapplication.ui.galeri.GaleriActivity
 import com.example.midwiferyapplication.ui.mahasiswa.MahasiswaActivity
