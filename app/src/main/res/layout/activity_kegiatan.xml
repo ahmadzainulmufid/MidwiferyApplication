@@ -10,7 +10,7 @@
     <!-- Vector 1 -->
     <ImageView
         android:id="@+id/vector1"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:src="@drawable/vector3"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,7 +23,7 @@
         android:layout_width="48dp"
         android:layout_height="48dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="30dp"
         android:background="@drawable/bg_circle"
         android:src="@drawable/ic_baseline_arrow_back_24"
         android:contentDescription="@string/back"
@@ -33,7 +33,7 @@
     <!-- Teks Kemahasiswaan -->
     <TextView
         android:id="@+id/tv_kemahasiswaan"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/kemahasiswaan"
         android:textColor="@android:color/white"
@@ -59,7 +59,7 @@
 
     <TextView
         android:id="@+id/tv_kegiatan"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Kegiatan"
         android:textColor="@color/black"
@@ -73,7 +73,7 @@
 
     <ImageView
         android:id="@+id/img_kegiatan1"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:src="@drawable/kegiatan1"
         android:layout_marginTop="70dp"
@@ -83,7 +83,7 @@
 
     <ImageView
         android:id="@+id/img_prestasi2"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:src="@drawable/kegiatan2"
         android:layout_marginTop="280dp"

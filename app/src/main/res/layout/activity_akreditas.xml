@@ -10,7 +10,7 @@
     <!-- Vector 1 -->
     <ImageView
         android:id="@+id/vector1"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:src="@drawable/vector12"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,7 +23,7 @@
         android:layout_width="48dp"
         android:layout_height="48dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="30dp"
         android:background="@drawable/bg_circle"
         android:src="@drawable/ic_baseline_arrow_back_24"
         android:contentDescription="@string/back"
@@ -35,20 +35,20 @@
         android:id="@+id/tv_kemahasiswaan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:text="@string/akreditasi"
+        android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:gravity="center"
-        android:textAlignment="center"
-        android:layout_marginStart="20dp"
-        app:layout_constraintStart_toEndOf="@id/btn_back"
-        app:layout_constraintTop_toTopOf="@id/btn_back"
-        app:layout_constraintBottom_toBottomOf="@id/btn_back"/>
+        android:layout_marginTop="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/vector2"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:src="@drawable/vector14"
         app:layout_constraintEnd_toEndOf="parent"
@@ -101,18 +101,21 @@
 
     <TextView
         android:id="@+id/tv_link"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:textSize="12sp"
         android:text="@string/link"
         android:gravity="center"
+        android:textColor="@android:color/holo_blue_dark"
         android:layout_marginTop="20dp"
+        android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@+id/tv_download_info"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
     <ImageView
         android:id="@+id/vector3"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:src="@drawable/vector13"
         android:layout_marginTop="50dp"
